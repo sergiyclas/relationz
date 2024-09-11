@@ -1,0 +1,56 @@
+/* Reminders section styles */
+.reminders {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+
+.reminders__left {
+    max-width: 50%;
+}
+
+.reminder__left-card {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.reminder__left-card-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.reminder__left-cart-text {
+    font-size: 16px;
+    color: #555;
+}
+
+.reminders__right {
+    max-width: 40%;
+}
+
+.reminder__right-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.reminder__right-description {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #777;
+}
+
+.reminder__right-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.reminder__right-list-item {
+    font-size: 16px;
+    color: #333;
+}

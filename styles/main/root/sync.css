@@ -1,0 +1,74 @@
+/* Sync section styles */
+.sync {
+    padding: 60px 0;
+    background-color: #ffffff;
+}
+
+.sync__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.sync__icon {
+    flex-shrink: 0;
+}
+
+.sync__icon-img {
+    width: 60px;
+    height: 60px;
+}
+
+.sync_left-div {
+    max-width: 50%;
+}
+
+.sync__left-div-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.sync__left-div-description {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.sync__left-div-ul {
+    margin-top: 20px;
+}
+
+.sync__left-div-ul-li {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.sync_right-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.sync_right-div-title-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.sync_right-div-title-h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sync_right-div-title-p {
+    font-size: 16px;
+    color: #777;
+}
+
+.sync_right-div-info-span {
+    font-size: 16px;
+    color: #555;
+}
