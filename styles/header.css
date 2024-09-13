@@ -1,91 +1,86 @@
 /*header styles START*/
 
 .header {
+    padding: 25px 102px;
     width: 100vw;
     max-width: 2560px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* padding: var(--screen-padding); */
-    overflow: hidden;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 100;
-    gap: 25px;
+    /* background-color: #F9F9F9; Додаємо фон для хедера */
 }
 
+/* Стилі для лого */
 .header__logo {
+    font-family: 'Gilroy', sans-serif;
     font-size: 24px;
     font-weight: 700;
-    max-width: 135px;
-    height: var(--logo-height);
-    /* max-width: 135px; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    color: #222222;
     text-decoration: none;
-    color: black;
-    font: bold;
 }
 
-.header__nav {
-    width: fit-content;
+/* Основна навігація (Login) */
+.header__nav-main {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
-    gap: 45px;
-}
-
-/* .header__nav-login {
-    font-size: 24px;
-        font-weight: 700;
-        max-width: 135px;
-        height: var(--logo-height);
-        max-width: 135px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-decoration: none;
-        color: black;
-} */
-
-.header__nav-list {
-    display: flex;
-    gap: 20px;
-}
-
-.header__nav-list-item {
-    list-style: none;
-    
+    gap: 28px;
 }
 
 .header__nav-list-link {
-        text-decoration: none;
-    font-family: Gilroy;
-        font-size: 11.09px;
-        font-weight: 600;
-        line-height: 13.23px;
-        text-align: left;
-    color: #333;
-    text-transform: capitalize;
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #73738D;
+    text-decoration: none;
+    margin-left: 20px;
 }
-/* 
+
+/* Центральна навігація */
+.header__nav-center {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.header__nav-list {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+}
+
+.header__nav-list-item {
+    margin: 0;
+}
+
+.header__nav-list-link {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #73738D;
+    text-decoration: none;
+}
+
+/* Кнопка "Try it for free" */
 .header__nav-action-button {
+    border: 1px solid #1943EF;
+    border-radius: 34px;
+    padding: 10px 20px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
 
-box-sizing: border-box;
-border: 1.04px solid rgba(25, 67, 239, 1);
-border-radius: 33.9597px;
+.header__nav-action-button:hover {
+    background-color: #1943EF;
+}
 
-font-family: 'Gilroy';
-font-style: normal;
-font-weight: 600;
-font-size: 11.0889px;
-line-height: 13px;
+.header__nav-action-button-text {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #1943EF;
+}
 
-
-color: #1943EF;
-
-
-} */
+.header__nav-action-button:hover .header__nav-action-button-text {
+    color: #ffffff;
+}

@@ -1,56 +1,48 @@
 /* Reminders section styles */
-.reminders {
+.reminder {
+    max-width: 2560px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 60px 0;
-    background-color: #f9f9f9;
+    padding: 60px 60px;
 }
 
 .reminders__left {
-    max-width: 50%;
-}
-
-.reminder__left-card {
-    display: flex;
-    align-items: flex-start;
-    margin-bottom: 20px;
-}
-
-.reminder__left-card-image {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    margin-right: 20px;
-}
-
-.reminder__left-cart-text {
-    font-size: 16px;
-    color: #555;
+    
 }
 
 .reminders__right {
-    max-width: 40%;
+    justify-content: center;
+    align-items: center;
 }
 
-.reminder__right-title {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-.reminder__right-description {
-    font-size: 18px;
-    margin-bottom: 20px;
-    color: #777;
-}
-
-.reminder__right-list {
+.reminder__left-content {
     display: flex;
-    flex-direction: column;
-    gap: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 13.8611px 55.4444px #F2F5FA;
+    border-radius: 16.6333px;
+
 }
 
-.reminder__right-list-item {
-    font-size: 16px;
-    color: #333;
+.reminder__left-content-image {
+    width: 33.27px;
+    height: 33.27px;
+    gap: 0px;
+    border-radius: 38.2px;
+    opacity: 0px;
+}
+
+.reminder__left-content-description {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11.0889px;
+    line-height: 150%;
+    /* or 17px */
+
+    color: rgba(34, 34, 34, 0.8);
+}
+
+.reminder__left-content-description > b {
+    font-weight: bold;
 }
