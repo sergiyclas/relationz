@@ -1,244 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
+<head>
+    <meta charset="UTF-8"/>
     <title>Relationz</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta
-      name="description"
-      content="Laboratory work 1 and 2. Made by Serhiy Dzen at Lviv Polytechnic National University"
+            name="description"
+            content="Laboratory work 1 and 2. Made by Serhiy Dzen at Lviv Polytechnic National University"
     />
-    <link rel="icon" href="./icons/public-relation.ico" />
+    <link rel="icon" href="./icons/public-relation.ico"/>
     <!--STYLES-->
-    <link rel="stylesheet" href="./styles/reset.css" />
-    <link rel="stylesheet" href="./styles/manual.css" />
-    <link rel="stylesheet" href="./styles/header.css" />
-    <link rel="stylesheet" href="./styles/main/style.css" />
-    <link rel="stylesheet" href="./styles/main/root/hero.css" />
-    <link rel="stylesheet" href="./styles/main/root/reminders.css" />
-    <link rel="stylesheet" href="./styles/main/root/sync.css" />
-    <link rel="stylesheet" href="./styles/main/root/afterfooter.css" />
-    <link rel="stylesheet" href="./styles/footer.css" />
-  </head>
+    <link rel="stylesheet" href="./styles/reset.css"/>
+    <link rel="stylesheet" href="./styles/manual.css"/>
+    <link rel="stylesheet" href="./styles/header.css"/>
+    <link rel="stylesheet" href="./styles/footer.css"/>
+    <link rel="stylesheet" href="./styles/main/style.css"/>
+    <link rel="stylesheet" href="./styles/main/root/hero.css"/>
+    <link rel="stylesheet" href="./styles/main/root/reminders.css"/>
+    <link rel="stylesheet" href="./styles/main/root/sync.css"/>
+    <link rel="stylesheet" href="./styles/main/root/connected.css"/>
+    <link rel="stylesheet" href="styles/main/root/freetrial.css"/>
 
-  <body>
-    <div class="wrap">
-      <header class="header">
-        <nav class="header__nav-main">
-          <a href="./index.html" class="header__logo">Relationz</a>
-          <a href="#" class="header__nav-list-link">Login</a>
-        </nav>
-      
-        <nav class="header__nav-center">
-          <ul class="header__nav-list">
-            <li class="header__nav-list-item">
-              <a href="#" class="header__nav-list-link">Services</a>
-            </li>
-            <li class="header__nav-list-item">
-              <a href="#" class="header__nav-list-link">Enterprise</a>
-            </li>
-            <li class="header__nav-list-item">
-              <a href="#" class="header__nav-list-link">Pricing</a>
-            </li>
-          </ul>
-        </nav>
-      
-        <button class="header__nav-action-button">
-          <span class="header__nav-action-button-text">Try it for free</span>
-        </button>
-      </header>      
+</head>
 
-      <main class="main">
+<body>
+<div class="wrap">
+    <header class="header">
+        <div class="header__container">
+            <nav class="header__nav-login">
+                <a href="./index.html" class="header__logo">Relationz</a>
+                <a href="#" class="header__link">Login</a>
+            </nav>
+
+            <nav class="header__nav-main">
+                <ul class="header__list">
+                    <li class="header_item">
+                        <a href="#" class="header-main__link">Services</a>
+                    </li>
+                    <li class="header_item">
+                        <a href="#" class="header-main__link">Enterprise</a>
+                    </li>
+                    <li class="header_item">
+                        <a href="#" class="header-main__link">Pricing</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <button class="header__button">
+                <span class="header__button-text">Try it for free</span>
+            </button>
+        </div>
+    </header>
+
+    <main class="main">
         <section class="hero">
-          <div class="hero__container">
-            <h1 class="hero__container-title">
-              Take your relationships to the next level
-            </h1>
-            <p class="hero__container-description">
-              The multichannel sales engagement platform which automates
-              personal email outreach, calls, and tasks, while Sales can focus
-              on what really matters - closing deals.
-            </p>
-            <form class="hero__container-form">
-              <input
-                type="email"
-                class="hero__container-form-input"
-                placeholder="Email id"
-              />
-              <button type="submit" class="hero__container-form-button">
-                Try it for free
-              </button>
-            </form>
-          </div>
+            <div class="hero__container">
+                <h1 class="hero__container title">
+                    Take your relationships to the next level
+                </h1>
+                <p class="hero__container description">
+                    The multichannel sales engagement platform which automates
+                    personal email outreach, calls, and tasks, while Sales can focus
+                    on what really matters - closing deals.
+                </p>
+                <form class="hero__container form">
+                    <input
+                            type="email"
+                            class="hero__container form__input"
+                            placeholder="Email id"
+                    />
+                    <button type="submit" class="hero__container form-button">
+                        Try it for free
+                    </button>
+                </form>
+            </div>
 
-          <img class="hero__image" src="images/phone.png" alt="Phone Mockup" />
+            <img class="hero__image" src="images/phone.png" alt="Phone Mockup"/>
         </section>
 
         <section class="reminder">
-          <!-- Left Column -->
-          <div class="reminders__left">
-            <div class="reminder__left-content">
-              <img
-                class="reminder__left-content-image"
-                src="images/avatar_0.png"
-                alt="avatar_1"
-              />
+            <section class="reminders__container">
+                <div class="reminder__left-container">
+                    <div class="reminder__left-person-1 person">
+                        <img class="reminder__left-image" src="images/avatar_0.png" alt="avatar_1"/>
+                        <p class="reminder__left-description">
+                            You have a meeting with <b>Surbhi</b> to help her with
+                            her portfolio. She got a new pet (Dog named Tiger).
+                        </p>
+                    </div>
+                    <div class="reminder__left-person-2 person">
+                        <img class="reminder__left-image" src="images/avatar_1.png" alt="avatar_2"/>
+                        <p class="reminder__left-description">
+                            <b>Ripal</b> has recently been to Thailand and she wants to discuss
+                            about new Job opportunity.
+                        </p>
+                    </div>
+                    <div class="reminder__left-person-2 person">
+                        <img class="reminder__left-image" src="images/avatar_2.png" alt="avatar_3"/>
+                        <p class="reminder__left-description">
+                            <b>Prashasti</b> hasn't responded to your Email from 22 Jan, 2020
+                            <b>Want to check up on her?</b>
+                            <b><br/><a href="#">Follow up</a></b>
 
-              <p class="reminder__left-content-description">
-                You have a meeting with <b>Surbhi</b> to help her with
-                her portfolio. She got a new pet (Dog named Tiger).
-              </p>
-            </div>
-            <div class="reminder__left-content">
-              <img
-                class="reminder__left-content-image"
-                src="images/avatar_1.png"
-                alt="avatar_2"
-              />
+                        </p>
+                    </div>
+                </div>
 
-              <p class="reminder__left-content-description">
-                <b>Ripal</b> has recently been to Thailand and she wants to discuss
-                about new Job opportunity.
-              </p>
-            </div>
-            <div class="reminder__left-content">
-              <img
-                class="reminder__left-content-image"
-                src="images/avatar_2.png"
-                alt="avatar_3"
-              />
+                <div class="reminder__right-container">
+                    <h2 class="reminder__right title">Get reminders to follow up</h2>
+                    <p class="reminder__right description">
+                        We remind you of everything important and track everything
+                        that's important to your important ones so you always stay
+                        connected. We only tell you the details when you need them the
+                        most.
+                    </p>
+                    <div class="reminder__right-list">
+                        <div class="reminder__right-list-row">
+                            <div><img class="pointer_img" src="icons/SVG/pointer.svg" alt="Icon">Birthdays</div>
+                            <div><img class="pointer_img" src="icons/SVG/pointer.svg" alt="Icon">Friends & Family</div>
+                        </div>
+                        <div class="reminder__right-list-row">
+                            <div><img class="pointer_img" src="icons/SVG/pointer.svg" alt="Icon">Business Meetings</div>
+                            <div><img class="pointer_img" src="icons/SVG/pointer.svg" alt="Icon">Surroundings</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-              <p class="reminder__left-content-description">
-                <b>Prashasti</b> hasn't responded to your Email from 22 Jan, 2020
-                <b>Want to check up on her?</b>
-                <br /><a href="#">Follow up</a>
-              </p>
-            </div>
+            <section class="sync__icon">
+                <img class="sync__icon-img" src="icons/SVG/update.svg" alt="Sync Icon"/>
+            </section>
 
-            <!-- Right Column -->
-            <div class="reminders__right">
-              <h2 class="reminder__right-title">Get reminders to follow up</h2>
-              <p class="reminder__right-description">
-                We remind you of everything important and track everything
-                that's important to your important ones so you always stay
-                connected. We only tell you the details when you need them the
-                most.
-              </p>
-              <ul class="reminder__right-list">
-                <li class="reminder__right-list-item">Birthdays</li>
-                <li class="reminder__right-list-item">Friends & Family</li>
-                <li class="reminder__right-list-item">Business Meetings</li>
-                <li class="reminder__right-list-item">Surroundings</li>
-              </ul>
-            </div>
-          </div>
+            <section class="sync">
+                <div class="sync__left">
+                    <h2 class="sync__left-title">Our sync remembers everything</h2>
+                    <p class="sync__left-description">
+                        We build a huge database of all your contacts with all the possible details they share with you
+                        and you can access it anywhere, anytime. It works so well that you will love it like we do.
+                    </p>
+                    <div class="sync__left-list">
+                        <div class="sync__left-item">
+                            <div><img class="pointer_img" src="icons/SVG/pointer.svg" alt="Icon">Available on devices
+                            </div>
+                            <div><img class="pointer_img" src="icons/SVG/pointer.svg" alt="Icon">Can be accessed via
+                                phonebook
+                            </div>
+                        </div>
+                        <div class="sync__left-item">
+                            <div><img class="pointer_img" src="icons/SVG/pointer.svg" alt="Icon">Search details</div>
+                            <div><img class="pointer_img" src="icons/SVG/pointer.svg" alt="Icon">24X7 Support</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sync__right">
+                    <div class="sync__right-title">
+                        <img class="sync__right-title-img" src="images/avatar_3.png" alt="Archana Deshmukh"/>
+                        <div>
+                            <h3 class="sync__right-title-title">Archana Deshmukh</h3>
+                            <p class="sync__right-title-description">Product Design Consultant</p>
+                        </div>
+                    </div>
+                    <div class="sync__right-info">
+                        <div class="sync__right-info-description"><img src="icons/SVG/cake.svg" alt=""> 17 April, 1994</div>
+                        <div class="sync__right-info-description"><img src="icons/SVG/case.svg" alt=""> Product Design Consultant</div>
+                        <div class="sync__right-info-description"><img src="icons/SVG/nice.svg" alt=""> Went to Amsterdam with parents
+                            to
+                            visit her brother.
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="relation__icon">
+                <img class="relation__icon-img" src="icons/SVG/relations.svg" alt="Sync Icon"/>
+            </section>
+
+            <section class="connected">
+                <div class="connected__left">
+                    <div class="connected__left-title-container">
+                        <h2 class="connected__left-title">Send content around anxiety</h2>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                    <h3 class="connected__left-posttitle">3 people on the list</h3>
+                    <p class="connected__left-description">
+                        We all worry and get upset from time to time. It’s a normal part of life, right? But what
+                        happens when that anxiety or anger takes over, and you can’t calm down? Being able to calm
+                        yourself in the moment...
+                    </p>
+                </div>
+
+                <div class="connected__right-container">
+                    <h2 class="connected__right-title">Stay connected in a few clicks</h2>
+                    <p class="connected__right-description">
+                        The multichannel sales engagement platform which automates personal email outreach, calls, and
+                        tasks, while Sales can focus on what really matters - closing deals.
+                    </p>
+                </div>
+
+            </section>
+
+            <section class="freetrial">
+
+                <div class="freetrial__container">
+                    <h2 class="freetrial__title">Form better relationships with everyone</h2>
+                    <p class="freetrial__description">Start your free 14 days trial.</p>
+                </div>
+
+                <a class="freetrial__button" href="#"><span class="freetrial__button-text">Try it for free</span></a>
+            </section>
         </section>
+        <footer>
+            <div class="footer__container">
+                <h2 class="footer__title">Relationz</h2>
+                <p class="footer__text">Copyright © 2010 - 2019 Relationz Ltd. All rights reserved.</p>
 
-        <section class="sync__icon">
-          <img
-            class="sync__icon-img"
-            src="icons/SVG/update.svg"
-            alt="Sync Icon"
-          />
-        </section>
-
-        <section class="sync">
-          <div class="sync__left">
-            <h2 class="sync__left-title">Our sync remembers everything</h2>
-            <p class="sync__left-description">
-              We build a huge database of all your contacts with all the
-              possible details they share with you and you can access it
-              anywhere, anytime. It's works so well that you will love it like
-              we do.
-            </p>
-            <ul class="sync__left-ul">
-              <li class="sync__left-ul-li">Available on devices</li>
-              <li class="sync__left-ul-li">Can be accessed via phonebook</li>
-              <li class="sync__left-ul-li">Search details</li>
-              <li class="sync__left-ul-li">24X7 Support</li>
-            </ul>
-          </div>
-
-          <div class="sync__right">
-            <div class="sync__right-title">
-              <img
-                class="sync__right-title-img"
-                src="images/avatar_3.png"
-                alt="Archana Deshmukh"
-              />
-              <h3 class="sync__right-title-title">Archana Deshmukh</h3>
-              <p class="sync__right-title-description">
-                Product Design Consultant
-              </p>
             </div>
-            <div class="sync__right-info">
-              <p class="sync__right-info-description">
-                <span>17 April, 1994</span>
-              </p>
-              <p class="sync__right-info-description">
-                <span
-                  >Went to Amsterdam with parents to visit her brother.</span
-                >
-              </p>
-              <p class="sync__right-info-description">
-                <span>Product Design Consultant</span>
-              </p>
-            </div>
-          </div>
-        </section>
-
-        <section class="relation__icon">
-          <img
-            class="relation__icon-img"
-            src="icons/SVG/relations.svg"
-            alt="Sync Icon"
-          />
-        </section>
-
-        <section class="connected">
-          <div class="connected__left">
-            <h3 class="connected__left-title">Send content around anxiety</h3>
-            <h4 class="connected__left-posttitle">3 people on the list</h4>
-            <p class="connected__left-description">
-              We all worry and get upset from time to time. It's a normal part
-              of life, right? But what happens when that anxiety or anger takes
-              over, and you can't calm down? Being able to calm yourself in the
-              moment is crucial...
-            </p>
-          </div>
-
-          <div class="connected__right">
-            <h2 class="connected__right-title">
-              Stay connected in a few clicks
-            </h2>
-            <p class="connected__right-description">
-              The multichannel sales engagement platform which automates
-              personal email outreach, calls, and tasks, while Sales can focus
-              on what really matters - closing deals.
-            </p>
-          </div>
-        </section>
-
-        <section class="freetrial">
-          <h2 class="freetrial__title">
-            Form better relationships with everyone
-          </h2>
-          <p class="freetrial__description"></p>
-
-          <button class="freetrial__button">
-            <span class="freetrial__button-text">Try it for free</span>
-          </button>
-        </section>
-      </main>
-
-      <footer class="footer">
-        <div class="footer__content">
-          <h4 class="footer__main-text">Relationz</h4>
-          <p class="footer__text">
-            Copyright © 2010 - 2019 Relationz Ltd. All rights reserved.
-          </p>
-        </div>
-      </footer>
-    </div>
-  </body>
+        </footer>
+    </main>
+    </footer>
+</div>
+</body>
 </html>

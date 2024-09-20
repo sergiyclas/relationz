@@ -1,48 +1,152 @@
-/* Reminders section styles */
 .reminder {
-    max-width: 2560px;
-    width: 100%;
+    /*padding: 0 81px;*/
+}
+
+.reminders__container {
     display: flex;
+    flex-direction: row;
+    /*margin-top: 50px;*/
+    /*margin-bottom: 90px;*/
+
     justify-content: space-between;
-    padding: 60px 60px;
+    padding: 0 81px 0;
 }
 
-.reminders__left {
-    
+.reminder__left-container {
+    width: 55%;
 }
 
-.reminders__right {
-    justify-content: center;
-    align-items: center;
-}
-
-.reminder__left-content {
+.person {
     display: flex;
-    background: #FFFFFF;
+    align-items: center;
+    flex-direction: row;
+    background-color: #fff;
+    /*border-radius: 15px;*/
+    margin-bottom: 15px;
+    height: 80px;
+    /*padding: 10px;*/
+    /* Rectangle */
+
     box-shadow: 0px 13.8611px 55.4444px #F2F5FA;
     border-radius: 16.6333px;
 
-}
-
-.reminder__left-content-image {
-    width: 33.27px;
-    height: 33.27px;
-    gap: 0px;
-    border-radius: 38.2px;
-    opacity: 0px;
-}
-
-.reminder__left-content-description {
-    font-family: 'Gilroy';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 11.0889px;
-    line-height: 150%;
-    /* or 17px */
-
     color: rgba(34, 34, 34, 0.8);
+    padding: 0 16px;
+
+    line-height: 19px;
 }
 
-.reminder__left-content-description > b {
+.reminder__left-image {
+    height: 50%;
+    margin-right: 2%;
+}
+
+.reminder__left-description b {
+    /*color: black;*/
     font-weight: bold;
 }
+
+.reminder__left-description a {
+    color: rgba(38, 194, 150, 255);
+    line-height: 30px;
+}
+
+.reminder__right-container {
+    width: 50%;
+    margin-left: 8%;
+    color: rgba(115, 115, 141, 1);
+}
+
+.reminder__right.title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24.95px;
+    line-height: 30px;
+
+    color: #222222;
+}
+
+.reminder__right.description {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 30px;
+
+    padding: 16px 0;
+}
+
+.reminder__right-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.reminder__right-list-row {
+    /*width: 245px;*/
+    display: flex;
+    flex-direction: column;
+    /*margin-bottom: 15px;*/
+    gap: 16px;
+}
+
+.reminder__right-list-row div {
+    width: 200px;
+}
+
+.pointer_img {
+    height: 9px;
+    margin-right: 5px;
+}
+
+/*@media (max-width: 785px) {*/
+/*    .reminders__container {*/
+/*        flex-direction: column;*/
+/*    }*/
+
+/*    .reminder__left-container {*/
+/*        width: 100%;*/
+/*    }*/
+
+/*    .reminder__right-container {*/
+/*        width: 100%;*/
+/*        margin-left: 0;*/
+/*    }*/
+
+/*    .reminder__right.description {*/
+/*        font-size: 18px;*/
+/*    }*/
+
+/*    .reminder__left-person-1,*/
+/*    .reminder__left-person-2 {*/
+/*        height: 60px;*/
+/*        font-size: 14px;*/
+/*    }*/
+
+/*    .reminder__left-image {*/
+/*        height: 35px;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 550px) {*/
+/*    .reminder__left-image {*/
+/*        height: 30px;*/
+/*    }*/
+
+/*    .reminder__left-person-1,*/
+/*    .reminder__left-person-2 {*/
+/*        height: 50px;*/
+/*        font-size: 11px;*/
+/*    }*/
+
+/*    .reminder__right.title {*/
+/*        font-size: 18px;*/
+/*        margin-bottom: 0;*/
+/*    }*/
+
+/*    .reminder__right.description {*/
+/*        font-size: 14px;*/
+/*    }*/
+
+/*    .reminder__right-list-row div {*/
+/*        width: 150px;*/
+/*        font-size: 11px;*/
+/*    }*/
+/*}*/

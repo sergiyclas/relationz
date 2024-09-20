@@ -3,38 +3,7 @@
     font-family: 'Gilroy', sans-serif;
 }
 
-/*variables START*/
-
-:root {
-    --plain-text-size: calc(8px + .5vw);
-    --big-text-size: calc(10px + .5vw);
-    --bigger-text-size: calc(12px + .6vw);
-    --h1-size: calc(26px + .8vw);
-    --h2-size: calc(28px + .8vw);
-    --h3-size: calc(12px + .8vw);
-    --screen-padding: 35px 100px;
-    --logo-height: calc(15px + 1.3vw)
-}
-
-/*variables END*/
-
-.wrap {
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-@media screen and (max-width: 700px) {
-    :root {
-        --plain-text-size: 12px;
-    }
-}
-
-@media screen and (max-width: 928px) {
-    :root {
-        --screen-padding: 25px;
-    }
+a {
+    text-decoration: none;
+    cursor: pointer;
 }

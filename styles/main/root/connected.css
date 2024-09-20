@@ -1,0 +1,82 @@
+/*connected styles START*/
+
+.connected{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+    padding: 0 81px 0;
+}
+
+.connected__left {
+    width: 50%;
+    padding: 22px 17px;
+    background: #FFFFFF;
+    box-shadow: 0px 13.8611px 55.4444px #F2F5FA;
+    border-radius: 20.7917px;
+
+}
+
+.connected__left-title-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.connected__left-title{
+    font-size: 31px;
+    margin-bottom: 5px;
+    color: black;
+    font-weight: 600;
+    margin-right: auto;
+}
+
+.connected__left-description{
+    line-height: 24px;
+    padding-right: 15px;
+    margin-top: 20px;
+    color: rgba(115, 115, 141, 1);
+    font-size: 16px;
+}
+
+.connected__left-posttitle {
+
+}
+
+.dot{
+    margin-left: 3px;
+    height: 4px;
+    width: 4px;
+    background-color: #bbb;
+    border-radius: 100%;
+}
+
+.connected__left span{
+    color: rgba(34, 34, 34, 0.8);
+    font-size: 18px;
+}
+
+.connected__right-container {
+    width: 50%;
+    margin-left: 8%;
+    color: rgba(115, 115, 141, 1);
+}
+
+.connected__right-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24.95px;
+    line-height: 30px;
+
+    color: #222222;
+}
+
+.connected__right-description {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 30px;
+
+    padding: 16px 0;
+}
+
+
+/*connected styles END*/
