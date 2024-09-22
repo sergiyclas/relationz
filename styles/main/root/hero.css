@@ -39,11 +39,12 @@
 }
 
 .hero__container .description {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 30px;
-
     color: #73738D;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.5542px;
+    line-height: 150%;
 
     padding: 16px 0;
 }
@@ -70,7 +71,12 @@
 }
 
 .hero__container .form__input::placeholder {
-    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11.0889px;
+    line-height: 150%;
+    text-align: left;
+
     color: rgba(115, 115, 141, 0.6);
 }
 
@@ -78,17 +84,26 @@
     position: absolute;
     right: 0;
     top: 0;
-
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 20px 40px;
-    background-color: #0e72ed;
+    background-color: #1943EF;
     color: #fff;
     border: none;
     cursor: pointer;
     border-radius: 34px;
     width: 39%;
     height: 100%;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11.0889px;
+    line-height: 13px;
+    transition: background-color 0.3s, color 0.3s;
 }
 
+.hero__container .form-button:hover {
+    background-color: #fff;
+    color: #1943EF;
+    border: 1px solid #1943EF;
+}

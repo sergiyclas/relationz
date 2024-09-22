@@ -8,7 +8,7 @@
     box-shadow: 0px 13.8611px 55.4444px #F2F5FA;
     border-radius: 20.7917px;
     justify-content: center;
-    margin: 0 81px 0;
+    align-items: center;
 }
 
 .freetrial__container{
@@ -18,29 +18,51 @@
     margin-left: auto;
 }
 
-.freetrial__title{
-    margin: 0;
-    font-size: 30px;
-    font-weight: 600;
-}
-
 .freetrial__description{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11.0889px;
+    line-height: 150%;
+
+    color: #73738D;
+
+
     color: rgba(115, 115, 141, 1);
 }
 
-.freetrial__button{
+.freetrial__button {
+    display: flex;
     justify-content: center;
+    align-items: center;
     text-align: center;
     margin-right: auto;
     margin-left: auto;
-    font-size: 20px;
-    color: white;
-    /*margin-left: 2vw;*/
-    width: 225px;
+    color: #FFF;
+    width: 157px;
     border-radius: 30px;
     height: 45px;
-    line-height: 45px;
-    background-color:rgba(38, 194, 150, 1);
+    background-color: rgba(38, 194, 150, 1);
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    text-decoration: none;
+}
+
+.freetrial__button:hover {
+    background-color: #FFF;
+    color: rgba(38, 194, 150, 1);
+    transform: scale(1.1);
+    border: 1px solid rgba(38, 194, 150, 1);
+}
+
+.freetrial__button-text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11.0889px;
+    line-height: 13px;
+    color: #FFFFFF;
+}
+
+.freetrial__button:hover .freetrial__button-text {
+    color: rgba(38, 194, 150, 1);
 }
 
 /*freetrial styles END*/

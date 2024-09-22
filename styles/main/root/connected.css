@@ -1,10 +1,10 @@
 /*connected styles START*/
 
 .connected{
+    align-items: center;
     display: flex;
     flex-direction: row;
-    margin-bottom: 100px;
-    padding: 0 81px 0;
+    position: relative;
 }
 
 .connected__left {
@@ -23,22 +23,20 @@
 }
 
 .connected__left-title{
-    font-size: 31px;
-    margin-bottom: 5px;
-    color: black;
-    font-weight: 600;
     margin-right: auto;
 }
 
 .connected__left-description{
-    line-height: 24px;
     padding-right: 15px;
     margin-top: 20px;
-    color: rgba(115, 115, 141, 1);
-    font-size: 16px;
-}
 
-.connected__left-posttitle {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9.70278px;
+    line-height: 180%;
+
+    color: rgba(115, 115, 141, 0.8);
+
 
 }
 
@@ -60,23 +58,5 @@
     margin-left: 8%;
     color: rgba(115, 115, 141, 1);
 }
-
-.connected__right-title {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24.95px;
-    line-height: 30px;
-
-    color: #222222;
-}
-
-.connected__right-description {
-    font-size: 20px;
-    font-weight: 500;
-    margin-bottom: 30px;
-
-    padding: 16px 0;
-}
-
 
 /*connected styles END*/
