@@ -107,3 +107,17 @@
     color: #1943EF;
     border: 1px solid #1943EF;
 }
+
+@media (max-width: 768px) {
+    .hero {
+        width: 100%;
+        min-height: 100vh;
+        max-width: 2560px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffffff;
+        position: relative;
+        gap: 25px;
+    }
+}
