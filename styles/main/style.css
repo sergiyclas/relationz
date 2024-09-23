@@ -109,6 +109,55 @@ body {
     transition: 0.3s;
 }
 
+@media screen and (max-width: 768px) {
+    .note-bloke__title {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .note-bloke__description {
+        font-size: 13px;
+    }
+
+    .note-bloke__list {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .note-bloke__item {
+        margin-right: 0;
+    }
+
+    .white-bloke__title {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .white-bloke__pretitle, .white-bloke__description {
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .note-bloke__title {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .note-bloke__description {
+        font-size: 16px;
+    }
+
+    .white-bloke__title {
+        font-size: 18px;
+    }
+
+    .white-bloke__pretitle, .white-bloke__description {
+        font-size: 12px;
+    }
+}
+
+
 /** {*/
 /*    outline: 3px solid red*/
 /*}*/

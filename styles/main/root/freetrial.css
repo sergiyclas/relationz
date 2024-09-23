@@ -1,6 +1,6 @@
-/*freetrial styles START*/
+/* freetrial styles START */
 
-.freetrial{
+.freetrial {
     display: flex;
     flex-direction: row;
     padding: 22px 17px;
@@ -11,22 +11,18 @@
     align-items: center;
 }
 
-.freetrial__container{
+.freetrial__container {
     display: flex;
     justify-content: center;
     flex-direction: column;
     margin-left: auto;
 }
 
-.freetrial__description{
+.freetrial__description {
     font-style: normal;
     font-weight: 500;
     font-size: 11.0889px;
     line-height: 150%;
-
-    color: #73738D;
-
-
     color: rgba(115, 115, 141, 1);
 }
 
@@ -65,4 +61,38 @@
     color: rgba(38, 194, 150, 1);
 }
 
-/*freetrial styles END*/
+/* Media queries for freetrial section */
+@media screen and (max-width: 768px) {
+    .freetrial {
+        flex-direction: column;
+        /*padding: 20px;*/
+        text-align: center;
+    }
+
+    .freetrial__container {
+        margin-left: 0;
+    }
+
+    .freetrial__button {
+        width: 100%;
+        max-width: 200px;
+        margin-top: 20px;
+    }
+
+    .freetrial__description {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .freetrial__description {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .freetrial__button-text {
+        font-size: 14px;
+    }
+}
+
+/* freetrial styles END */

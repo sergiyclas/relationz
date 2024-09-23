@@ -1,6 +1,6 @@
-/*connected styles START*/
+/* connected styles START */
 
-.connected{
+.connected {
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -13,7 +13,6 @@
     background: #FFFFFF;
     box-shadow: 0px 13.8611px 55.4444px #F2F5FA;
     border-radius: 20.7917px;
-
 }
 
 .connected__left-title-container {
@@ -22,25 +21,21 @@
     align-items: center;
 }
 
-.connected__left-title{
+.connected__left-title {
     margin-right: auto;
 }
 
-.connected__left-description{
+.connected__left-description {
     padding-right: 15px;
     margin-top: 20px;
-
     font-style: normal;
     font-weight: 500;
     font-size: 9.70278px;
     line-height: 180%;
-
     color: rgba(115, 115, 141, 0.8);
-
-
 }
 
-.dot{
+.dot {
     margin-left: 3px;
     height: 4px;
     width: 4px;
@@ -48,7 +43,7 @@
     border-radius: 100%;
 }
 
-.connected__left span{
+.connected__left span {
     color: rgba(34, 34, 34, 0.8);
     font-size: 18px;
 }
@@ -59,4 +54,65 @@
     color: rgba(115, 115, 141, 1);
 }
 
-/*connected styles END*/
+/* Media queries for connected section */
+@media screen and (max-width: 768px) {
+    .connected {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .connected__left,
+    .connected__right-container {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .connected__left {
+        /*padding: 20px;*/
+        margin-bottom: 20px;
+    }
+
+    .connected__left-description {
+        font-size: 12px;
+        line-height: 1.6;
+    }
+
+    .connected__left-title {
+        font-size: 16px;
+        padding-bottom: 6px;
+    }
+
+    .connected__right-container {
+        /*padding: 20px;*/
+    }
+
+    .note-bloke__title {
+        font-size: 18px;
+    }
+
+    .note-bloke__description {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .connected__left-title {
+        font-size: 28px;
+        padding-bottom: 6px;
+    }
+
+    .connected__left-description {
+        font-size: 12px;
+    }
+
+    .note-bloke__title {
+        font-size: 28px;
+    }
+
+    .note-bloke__description {
+        font-size: 18px;
+        line-height: 26px;
+    }
+}
+
+/* connected styles END */

@@ -1,3 +1,4 @@
+/* Sync section styles */
 .sync {
     display: flex;
     flex-direction: row;
@@ -51,4 +52,88 @@
 
 .sync__right-info-description {
     /*display: flex;*/
+}
+
+/* Media queries для адаптивності */
+@media screen and (max-width: 768px) {
+    .sync {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 40px;
+    }
+
+    .sync__left, .sync__right {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .sync__right {
+        padding: 20px;
+    }
+
+    .sync__right-title {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .sync__right-title-img {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 10px;
+    }
+
+    .sync__right-info {
+        gap: 12px;
+    }
+
+    .sync__right-info-description {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    .note-bloke__title {
+        font-size: 20px;
+    }
+
+    .note-bloke__description {
+        font-size: 14px;
+    }
+
+    .note-bloke__list {
+        gap: 10px;
+    }
+
+    .note-bloke__item {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .sync__left {
+        width: 50%;
+    }
+
+    .sync__right {
+        width: 50%;
+    }
+
+    .sync__right-title-title {
+        font-size: 28px;
+    }
+
+    .sync__right-info-description {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .note-bloke__title {
+        font-size: 28px;
+    }
+
+    .note-bloke__description {
+        font-size: 18px;
+        line-height: 26px;
+    }
 }

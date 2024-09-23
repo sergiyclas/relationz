@@ -9,7 +9,7 @@
     background-color: #ffffff;
     position: relative;
     gap: 25px;
-
+    margin-top: 40px;
     /*padding: 0 120px 0 120px;*/
 }
 
@@ -108,16 +108,68 @@
     border: 1px solid #1943EF;
 }
 
-@media (max-width: 768px) {
+
+@media (max-width: 728px) {
     .hero {
-        width: 100%;
-        min-height: 100vh;
-        max-width: 2560px;
-        display: grid;
+        flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-        background-color: #ffffff;
-        position: relative;
-        gap: 25px;
+        gap: 15px;
+        padding: 28px; /* Це відступи бічні*/
+    }
+
+    .hero__container {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero__container .title {
+        font-size: 24px;
+    }
+
+    .hero__container .description {
+        font-size: 12px;
+    }
+
+    .hero__image {
+        width: 80%;
+    }
+
+    .hero__container .form {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero__container .form__input {
+        width: 100%;
+        border-radius: 34px;
+    }
+
+    .hero__container .form-button {
+        width: 100%;
+        border-radius: 34px;
+        position: static;
+    }
+}
+
+@media (min-width: 2560px) {
+    .hero {
+        padding: 0;
+    }
+
+    .hero__container {
+        max-width: 1600px;
+    }
+
+    .hero__container .title {
+        font-size: calc(40px + 1.5vw);
+    }
+
+    .hero__container .description {
+        font-size: 16px;
+    }
+
+    .hero__image {
+        width: 30%;
     }
 }

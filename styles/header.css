@@ -178,6 +178,7 @@
         align-items: flex-start;
         gap: 12px;
         padding: 12px 102px;
+        /*margin-left: 60%;*/
     }
 
     .header__nav-main {
@@ -200,6 +201,11 @@
 @media (max-width: 768px) {
     .header__nav-main, .header__nav-login, .header__button {
         display: none;
+    }
+
+    .header__container {
+        padding: 24px 102px;
+        /*margin-left: 60%;*/
     }
 
     .burger {
